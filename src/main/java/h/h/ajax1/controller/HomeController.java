@@ -28,9 +28,9 @@ public class HomeController {
 	}
 	
 	@RequestMapping(value = "/insert", method = RequestMethod.POST)
-	public @ResponseBody void insert(Comment c) {
-		logger.info(c.toString());
-		//String result = intResult(cr.insert(c));
+	public @ResponseBody String insert(Comment c) {
+		String result = intResult(cr.insert(c));
+		return result;
 	}
 	
 	@RequestMapping(value = "/delete", method = RequestMethod.GET)

@@ -10,6 +10,7 @@ $(function(){
 	$("#regist").on('click', function(){
 		var name = $("#name").val();
 		var text = $("#text").val();
+		var myData = { name: name, text: text };
 		if (name.length<1 || text.length==0) {
 			alert('빠뜨리지 말고 입력~');
 			return;
@@ -17,6 +18,7 @@ $(function(){
 		$.ajax({
 			type:"post"
 			, url:"insert"
+			, data: myData
 			,success:function(req){
 				alert(req);
 			}
