@@ -5,11 +5,11 @@
 <configuration>
 
 	<typeAliases>
-		<typeAlias type="h.h.ajax1.vo.Customer" alias="Customer" />
+		<typeAlias type="h.h.ajax1.vo.Comment" alias="Comment" />
 	</typeAliases>
 	
 	<mappers>
-		<mapper resource="mappers/customerMapper.xml"/>
+		<mapper resource="mappers/commentMapper.xml"/>
 	</mappers>
 	
 </configuration>
