@@ -1,4 +1,4 @@
-package h.h.ajax1.repository;
+package global.sesoc.ajaxTest.repository;
 
 import java.util.ArrayList;
 
@@ -6,8 +6,8 @@ import org.apache.ibatis.session.SqlSession;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import h.h.ajax1.dao.commentDAO;
-import h.h.ajax1.vo.Comment;
+import global.sesoc.ajaxTest.dao.commentDAO;
+import global.sesoc.ajaxTest.vo.Comment;
 
 @Repository
 public class CommentRepository {

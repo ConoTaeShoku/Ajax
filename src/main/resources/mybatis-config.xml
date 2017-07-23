@@ -5,7 +5,7 @@
 <configuration>
 
 	<typeAliases>
-		<typeAlias type="h.h.ajax1.vo.Comment" alias="Comment" />
+		<typeAlias type="global.sesoc.ajaxTest.vo.Comment" alias="Comment" />
 	</typeAliases>
 	
 	<mappers>

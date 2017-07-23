@@ -1,27 +1,27 @@
-package h.h.ajax1.vo;
+package global.sesoc.ajaxTest.vo;
 
 public class Comment {
 
-	private int number;
+	private int num;
 	private String name;
 	private String text;
 
 	public Comment() {
 	}
 
-	public Comment(int number, String name, String text) {
+	public Comment(int num, String name, String text) {
 		super();
-		this.number = number;
+		this.num = num;
 		this.name = name;
 		this.text = text;
 	}
 
-	public int getNumber() {
-		return number;
+	public int getNum() {
+		return num;
 	}
 
-	public void setNumber(int number) {
-		this.number = number;
+	public void setNum(int num) {
+		this.num = num;
 	}
 
 	public String getName() {
@@ -42,7 +42,7 @@ public class Comment {
 
 	@Override
 	public String toString() {
-		return "Comment [number=" + number + ", name=" + name + ", text=" + text + "]";
+		return "Comment [num=" + num + ", name=" + name + ", text=" + text + "]";
 	}
 
 }

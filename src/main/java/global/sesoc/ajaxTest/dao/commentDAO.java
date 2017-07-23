@@ -1,8 +1,8 @@
-package h.h.ajax1.dao;
+package global.sesoc.ajaxTest.dao;
 
 import java.util.ArrayList;
 
-import h.h.ajax1.vo.Comment;
+import global.sesoc.ajaxTest.vo.Comment;
 
 public interface commentDAO {
 
